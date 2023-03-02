@@ -2,12 +2,12 @@ export default [
   {
     icon: 'home-o',
     text: '首页',
-    url: '/pages/my/my'
+    url: '/pages/home/home'
   },
   {
     icon: 'label-o',
     text: '专题',
-    url: '/pages/logs/logs'
+    url: '/pages/home/home'
   },
   {
     icon: 'apps-o',
@@ -17,7 +17,7 @@ export default [
   {
     icon: 'cart-o',
     text: '购物车',
-    url: '/pages/logs/logs'
+    url: '/pages/home/home'
   },
   {
     icon: 'user-o',

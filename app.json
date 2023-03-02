@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/my/my",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/home/home"
   ],
   "tabBar": {
     "custom": true,
@@ -10,7 +11,7 @@
         "pagePath": "pages/my/my"
       },
       {
-        "pagePath": "pages/logs/logs"
+        "pagePath": "pages/home/home"
       }
     ]
   },
