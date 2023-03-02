@@ -1,8 +1,19 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
+<view>
 
-    
+<view>
+  
+  <van-grid>
+  <van-grid-item icon="photo-o" text="文字" />
+  <van-grid-item icon="photo-o" text="文字" />
+  <van-grid-item icon="photo-o" text="文字" />
+  <van-grid-item icon="photo-o" text="文字" />
+</van-grid>
+
+</view>
+
+
+  <view class="userinfo">
     <block wx:if="{{!hasUserInfo}}">
       <van-button bindtap="getUserProfile" type="primary">获取头像昵称</van-button>
     </block>
